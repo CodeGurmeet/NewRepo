@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-// function of bubble sort
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
     for (i = 0; i < n - 1; i++) {
@@ -13,7 +12,6 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-// to print the array
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
